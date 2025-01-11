@@ -41,7 +41,7 @@ jobs:
         with:
           redis-version: 6
 
-      - uses: pnpm/action-setup@v2.4.0
+      - uses: pnpm/action-setup@v2.4.1
         with:
           version: 8.x.x
       - name: Use Node.js ${{ matrix.node-version }}
