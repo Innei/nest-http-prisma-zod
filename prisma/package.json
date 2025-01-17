@@ -27,13 +27,13 @@
     "build": "prisma generate && tsc && cp -r client dist/client"
   },
   "dependencies": {
-    "@prisma/client": "5.7.0",
+    "@prisma/client": "5.22.0",
     "nestjs-zod": "3.0.0",
-    "prisma-json-types-generator": "3.0.3",
-    "zod-prisma-types": "3.1.6"
+    "prisma-json-types-generator": "3.2.2",
+    "zod-prisma-types": "3.2.1"
   },
   "devDependencies": {
     "nestjs-zod-prisma": "3.0.1",
-    "prisma": "5.7.0"
+    "prisma": "5.22.0"
   }
 }
